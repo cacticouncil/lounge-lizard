@@ -1,6 +1,6 @@
 <div class="thread">
     <div class="channelName"><span style="font-weight: bold">#{{thread.channelName}}</span></div>
-    <div id="{{thread.id}}">
+    <div class="messages-container" id="{{thread.id}}">
     {{#each thread.messages as |message|}}
     {{#if message.isDayMarker}}
     <div class="daymarker">
@@ -34,13 +34,6 @@
                     onclick="wey.pinMessage('{{message.id}}', {{message.timestamp}}, {{revert message.isPinned}}); return false"
                     title="Pin message"><i
                         class="{{#if message.isPinned}}icon-smile{{else}}icon-ellipsis{{/if}}"></i></a>
-
-                <!--Used to demonstrate pinned messages-->
-                <!--
-              <a href="#" onclick="wey.viewPinned('{{message.id}}'); return false" title="List pinned messages"><i class="icon-ellipsis"></i></a>
-            -->
-
-
             </div>
             {{#unless message.isFolded}}
             <div class="sender">
