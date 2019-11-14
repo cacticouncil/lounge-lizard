@@ -478,14 +478,13 @@
   }
   // External API to add a new message.
   window.addMessage = function(html, fromCurrentUser, threadId){
-    wey.log('add message called');
     threadId += '00';
     wey.log(threadId);
     let thread = document.getElementById(threadId);
     var children = HTMLToDOM(html)
     for (var i = 0; i < children.length; i++)
       thread.appendChild(children[i])
-    wey.log('message added');
+    loadAllImages();
   }
 
   // Helper to convert message id to DOM id.
