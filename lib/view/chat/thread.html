@@ -1,5 +1,5 @@
 <div class="thread">
-    <div class="channelName"><span style="font-weight: bold">#{{thread.channelName}}</span></div>
+    <div class="channelName"><span style="font-weight: bold">#{{thread.channel.name}}</span></div>
     <div class="messages-container" id="{{thread.id}}">
     {{#each thread.messages as |message|}}
     {{#if message.isDayMarker}}
