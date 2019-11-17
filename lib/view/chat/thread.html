@@ -116,7 +116,6 @@
 <script type="text/javascript" charset="utf-8">
 function handleEnter(e, element, threadId){
     if(e.keyCode === 13){
-        //wey.log('enter detected');
         wey.sendMessage(threadId, element.value);
         element.value = '';
     }

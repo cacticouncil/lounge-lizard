@@ -477,7 +477,7 @@
   // External API to add a new message.
   window.addMessage = function(html, fromCurrentUser, threadId){
     threadId += '00';
-    wey.log(threadId);
+    //wey.log(threadId);
     let thread = document.getElementById(threadId);
     var children = HTMLToDOM(html)
     for (var i = 0; i < children.length; i++)
