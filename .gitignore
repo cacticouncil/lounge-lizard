@@ -9,3 +9,4 @@ npm-debug.log
 /out/
 /yode/
 .idea/*
+search_slack_deprecations.ps1
