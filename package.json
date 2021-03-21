@@ -51,7 +51,8 @@
     "request": "^2.88.0",
     "sanitize-html": "1.20.0",
     "slackify-markdown": "^2.1.0",
-    "string-replace-async": "1.2.1"
+    "string-replace-async": "1.2.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "yackage": "0.2.10"
