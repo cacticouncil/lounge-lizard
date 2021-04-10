@@ -44,6 +44,7 @@
     "html-to-mrkdwn": "^3.0.0",
     "keytar": "4.3.0",
     "mini-signals": "1.1.1",
+    "ms-teams-client": "file:vendor/ms-teams-client",
     "node-notifier": "^6.0.0",
     "opn": "5.3.0",
     "qs": "^6.9.4",
