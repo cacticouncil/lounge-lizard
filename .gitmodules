@@ -1,0 +1,3 @@
+[submodule "vendor/ms-teams-client"]
+	path = vendor/ms-teams-client
+	url = https://github.com/cacticouncil/ms-teams-client.git
