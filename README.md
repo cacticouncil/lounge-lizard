@@ -47,7 +47,6 @@ Because only Node.js 10.x is supported when running the application from source 
 * Run `nvm install 10.9.0`
 * Run `nvm use 10.9.0`
 * Now, in a terminal, go to the local repository and run `git submodule update --init`
-* Create a symlink with the ms-teams-client module by running `npm link vendor/ms-teams-client/`
 * Install dependencies with `npm install` and run `npm run-script build`
 * Finally, to run the executable application, run `npm run start`
 
@@ -63,7 +62,6 @@ Because only Node.js 10.x is supported when running the application from source 
 * After installing NVM, restart your terminal session and run `nvm install 10.9.0` followed by `nvm use 10.9.0`
 * Verify that you are using the correct node version by running `which node`. You should see something like **Users/{User}/.nvm/versions/node/v10.9.0/bin/node**
 * Now go to the local repository and run `git submodule update --init`
-* Create a symlink with the ms-teams-client module by running `npm link vendor/ms-teams-client/`
 * Install dependencies with `npm install` and run `npm run-script build`
 * Finally, to run the executable application, run `npm run start`
 
