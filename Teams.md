@@ -1,5 +1,7 @@
 # Lounge Lizard for Microsoft Teams 
 
+**Important notice:** Please reference the ms-teams-client repository (https://github.com/cacticouncil/ms-teams-client) for the current Microsoft Teams implementation.
+
 ## Microsoft Graph 
 
 Microsoft graph is the gateway to getting Microsoft Teams integrated into the Lounge Lizard chat client.  It exposes the necessary APIs for all Microsoft products.
