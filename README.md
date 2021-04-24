@@ -46,7 +46,8 @@ Because only Node.js 10.x is supported when running the application from source 
 * Open Windows PowerShell with administrative privileges.
 * Run `nvm install 10.9.0`
 * Run `nvm use 10.9.0`
-* Now, in a terminal, go to the local repository and run `npm install` and `npm run-script build`
+* Now, in a terminal, go to the local repository and run `git submodule update --init`
+* Install dependencies with `npm install` and run `npm run-script build`
 * Finally, to run the executable application, run `npm run start`
 
 **Important note:** It is possible to run the application in either of two ways: using the executable file that was built above or using
@@ -58,10 +59,11 @@ Because only Node.js 10.x is supported when running the application from source 
 * Deleting your current Node.js and npm directories are optional on MacOS, but if you would like to do this before installing NVM they are usually located in /usr/local/bin/node and /usr/local/bin/npm.
 * Use a Node.js version manager. Node Version Manager is recommended.
 * Go to the [NVM github](https://github.com/nvm-sh/nvm). Under the "Install and Update Script" section there are options to either download and run the installation script, or run one of the provided cURL/Wget commands.
-* After installing NVM, restart your terminal session and run `nvm install 10.9.0`
+* After installing NVM, restart your terminal session and run `nvm install 10.9.0` followed by `nvm use 10.9.0`
 * Verify that you are using the correct node version by running `which node`. You should see something like **Users/{User}/.nvm/versions/node/v10.9.0/bin/node**
-* In your terminal, go to the local repository and run `npm install`, followed by `npm run-script build` and wait for it to finish.
-* Finally, run `npm run start` to run the executable application.
+* Now go to the local repository and run `git submodule update --init`
+* Install dependencies with `npm install` and run `npm run-script build`
+* Finally, to run the executable application, run `npm run start`
 
 ## Technical stack
 
